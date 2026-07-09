@@ -120,6 +120,13 @@ body {
   border-radius: 999px;
   background: #ffffff;
   border: 1px solid #000;
+
+  -moz-appearance: textfield;
+  appearance: textfield;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
 }
 
 .toggle__circle {
