@@ -60,7 +60,7 @@ body {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  background: conic-gradient(rgb(57, 82, 246) 180deg, #e9e8e8 0deg);
+  background: conic-gradient(#005dff 180deg, #eef3f6 0deg);
 
   &.animate {
     animation: spin 3s ease-in-out infinite;
@@ -104,10 +104,10 @@ body {
   width: 35px;
   height: 22px;
   border-radius: 999px;
-  background: #e9e8e8;
+  background: #dfe6f0;
 
   &.active {
-    background: #1e68fc;
+    background: #005dff;
     justify-content: end;
   }
 }
